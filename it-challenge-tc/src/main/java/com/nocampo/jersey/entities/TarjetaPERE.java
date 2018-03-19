@@ -16,7 +16,7 @@ public class TarjetaPERE extends Tarjeta{
 		// tasa PERE  = mes*0.1
 		Calendar calendar = Calendar.getInstance();
 		int month = calendar.get(Calendar.MONTH);
-		return month*0.1;
+		return month * 0.1;
 	}
 	
 }

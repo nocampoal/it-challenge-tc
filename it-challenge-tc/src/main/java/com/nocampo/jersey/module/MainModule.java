@@ -5,7 +5,6 @@ package main.java.com.nocampo.jersey.module;
 
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import main.java.com.nocampo.jersey.entities.Operacion;
