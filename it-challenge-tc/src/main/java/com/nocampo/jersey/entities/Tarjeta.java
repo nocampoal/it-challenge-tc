@@ -15,9 +15,7 @@ public abstract class Tarjeta {
 	protected String cardholder;
 	protected Date fechaVencimiento;
 	
-	
-	
-	
+		
 	public Tarjeta() {
 		
 	}
@@ -32,8 +30,6 @@ public abstract class Tarjeta {
 	}
 	
 	
-	
-
 	public String getMarca() {
 		return marca;
 	}
