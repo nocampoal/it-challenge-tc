@@ -4,7 +4,11 @@
 ## Endpoints
 
 /operationRate/{CreditCardName}
+
 /operationRate/verify
+
+## Aws - Amazon web service
+http://itchallengetc-env.us-east-2.elasticbeanstalk.com/operationRate/SQUA
 
 
 ## Parte 1
@@ -34,4 +38,4 @@ Git clone https://github.com/nocampoal/it-challenge-tc.git
 
 ## Futures/Contemplaciones 
 
-## Se entiende que para obtener la tasa de una operacion es necesario saber con que tarjeta operamos (nombre tarjeta) que es quien contiene la tasa. Para el caso de consulta de una tarjeta inexistente la api retorna bad request 400 y un msj.
+Se entiende que para obtener la tasa de una operacion es necesario saber con que tarjeta operamos (nombre tarjeta) que es quien contiene la tasa. Para el caso de consulta de una tarjeta inexistente la api retorna bad request 400 y un msj.
