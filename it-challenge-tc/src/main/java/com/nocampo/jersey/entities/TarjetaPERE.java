@@ -7,6 +7,10 @@ public class TarjetaPERE extends Tarjeta{
 
 	
 	
+	public TarjetaPERE() {
+		
+	}
+
 	public TarjetaPERE(String marca, String numero, String cardholder,Date fechaVencimiento) {
 			super(marca,numero,cardholder,fechaVencimiento);
 	}

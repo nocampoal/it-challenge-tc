@@ -6,6 +6,11 @@ import java.util.Date;
 public class TarjetaSCO extends Tarjeta{
 	
 	
+	
+	public TarjetaSCO() {
+	
+	}
+
 	public TarjetaSCO(String marca, String numero, String cardholder,Date fechaVencimiento) {
 		super(marca,numero,cardholder,fechaVencimiento);
 	}

@@ -6,6 +6,10 @@ import java.util.Date;
 public class TarjetaSQUA extends Tarjeta{
 	
 	
+	public TarjetaSQUA() {
+
+	}
+
 	public TarjetaSQUA(String marca, String numero, String cardholder,Date fechaVencimiento) {
 		super(marca,numero,cardholder,fechaVencimiento);
 	}
