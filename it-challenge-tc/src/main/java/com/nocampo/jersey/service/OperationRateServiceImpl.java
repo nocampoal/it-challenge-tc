@@ -17,7 +17,7 @@ public class OperationRateServiceImpl implements OperationRateService{
 	@Override
 	public Double getOperationRate(String marcaTarjeta) throws Exception {
 		Tarjeta tarjeta = null;
-		if(marcaTarjeta.equals("PERE")){
+		if(marcaTarjeta.equalsIgnoreCase("PERE")){
 			tarjeta = new TarjetaPERE();
 		}else if(marcaTarjeta.equalsIgnoreCase("SQUA")){
 			tarjeta = new TarjetaSQUA();
